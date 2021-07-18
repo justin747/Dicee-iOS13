@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageView2: UIImageView!
 
 
-
     @IBAction func rollButonPressed(_ sender: UIButton) {
         
         let diceArray = [ #imageLiteral(resourceName: "DiceOne") , #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix") ]
